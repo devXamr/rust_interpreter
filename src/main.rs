@@ -22,13 +22,7 @@ pub struct Token {
     pub literal : String
 }
 
-pub struct Lexer {
-    pub input: String,
-    pub position: i32,
-    pub read_position: i32,
-    pub ch: char
 
-}
 
 
 fn main() {
